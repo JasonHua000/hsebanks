@@ -11,7 +11,7 @@ type NavigationLinkProps = {
 const NavigationLink = ({ icon, label, link }: NavigationLinkProps) => {
   return (
     <UnstyledButton
-      component={Link}
+      component={Link} // make the button a Link component that navigates to the specified link when clicked
       to={link}
       sx={(theme) => ({
         display: "block",
@@ -31,7 +31,7 @@ const NavigationLink = ({ icon, label, link }: NavigationLinkProps) => {
     >
       <Group>
         <ThemeIcon variant="light" style={{backgroundColor: "transparent"}}>
-          {icon}
+          {icon} 
         </ThemeIcon>
         <Text size="lg">{label}</Text>
       </Group>
@@ -39,4 +39,5 @@ const NavigationLink = ({ icon, label, link }: NavigationLinkProps) => {
   );
 };
 
+// export the component as the default export of this module
 export default NavigationLink;

@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import AvailableCategoriesContext from "../store/AvailableCategoriesContext";
 import CategoriesContext from "../store/CategoriesContext";
 import HistoryContext from "../store/HistoryContext";
+// define types for the props and for the available categories
 
 type ResetValueModalProps = {
   type: string;
@@ -17,6 +18,8 @@ type AvailableCategories = {
 };
 
 const ResetValueModal = ({ type, prevAmount }: ResetValueModalProps) => {
+    // define state variables using the useState hook
+
   const [opened, setOpened] = useState(false);
   const { addHistoryElement } = useContext(HistoryContext);
   const { resetAmount } = useContext(CategoriesContext);

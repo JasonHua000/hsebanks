@@ -18,8 +18,9 @@ const HistoryStack = () => {
         })}
       >
         Transaction History
+        
       </Text>
-      <Divider my="sm" /> // add a divider below the title
+      <Divider my="sm" />  
       <ScrollArea
         type="always"
         sx={(theme) => ({
