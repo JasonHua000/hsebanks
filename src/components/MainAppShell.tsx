@@ -130,7 +130,7 @@ const MainAppShell = () => {
                     }}
                   >
                     <img src="/hselogo.png" alt="Alt text" style={{ width: "64px", height: "auto" }} />
-                    <Text ml={10}>HSE Financial App </Text>
+                    <Text ml={10}>HSE Banks </Text>
                   </div>
                   <DarkLightThemeButton />
                 </div>
