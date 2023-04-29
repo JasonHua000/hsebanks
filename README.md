@@ -1,6 +1,7 @@
 Documentation (for each page):
 
 AddBudgetPage -->
+
 Import statements:
  * Import Divider and Text components from the "@mantine/core" library.
  * Import AddToBudget, SetBudget, and ResetValueModal custom components.
@@ -25,6 +26,7 @@ Export the AddBudgetPage component:
  * Export the AddBudgetPage component as the default export.
 
 AddExpensesPage -->
+
 AddExpensePage component:
  * Define a functional component called AddExpensePage.
  * Extract the getTotalAmount function from the CategoriesContext using the useContext hook.
@@ -40,6 +42,7 @@ Export the AddExpensePage component:
  * Export the AddExpensePage component as the default export
 
 DisplayCategoriesPage--> 
+
 DisplayCategoriesPage component:
  * Define a functional component called DisplayCategoriesPage.
 
@@ -52,6 +55,7 @@ Export the DisplayCategoriesPage component:
  * Export the DisplayCategoriesPage component as the default export.
 
 HomePage --> 
+
 Return JSX:
  * Wrap the entire content in the PageContainer component.
  * Display the user's net balance and an emoji with a message based on the net balance.
