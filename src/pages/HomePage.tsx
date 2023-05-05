@@ -32,10 +32,10 @@ const HomePage = () => {
         </Text>
         {netBalance < 250 && (
           <Flex direction="row" align="center" mt={2}>
-            <HiEmojiSad />
             <Text color="red" size={20} ml={2}>
               You are broke, better get a job.
             </Text>
+            <HiEmojiSad />
           </Flex>
         )}
         {netBalance > 250 && (
@@ -43,7 +43,7 @@ const HomePage = () => {
             <Text color="green" size={20}>
               You aren't broke anymore...  
             </Text>
-            <HiEmojiHappy ml={2} />
+            <HiEmojiHappy />
           </Flex>
         )}
       </Flex>
